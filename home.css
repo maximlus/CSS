@@ -1,0 +1,38 @@
+#wrapper{
+    width: 90%;
+    hight: 90%;
+}
+#form{
+    float: left;
+}
+
+#leftside{
+    float: left;
+}
+#header{
+    hight: 20px;
+}
+#footer{
+    hight: 20px;
+}
+#section{
+    hight: 60%;
+}
+#size{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-style: groove;
+    border-radius: 5px;
+}
+#topping{
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px black;
+    border-style: groove;
+    border-radius: 5px;
+}
