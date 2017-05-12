@@ -1,12 +1,12 @@
 function main() {
     console.log("in main function");
     var myform = document.getElementById("login");
-    myform.addEventListener("submit",validateForm);
+    <!--myform.addEventListener("submit",validateForm);-->
     
     var sizeForm = document.getElementById("size");
-    sizeForm.addEventListener("change", priceAdjust;
+    sizeForm.addEventListener("change", priceAdjust);
 }
-
+/*
 function validateForm(event) {
     var nameUser = document.getElementById("userName");
     var wordPass = document.getElementById("passWord");
@@ -31,14 +31,22 @@ function validateForm(event) {
     }
   
 }
+*/
 
 function priceAdjust(event){
-    var x=0
+    
     console.log("the form has changed");
         var form = document.getElementById("size");
-        for(var i=0; i<form.size.length; i++){
-            if(form.size[i].checked){
+		var x = document.getElementById("size").length;
+		if(form == null)
+		{
+			alert('fucked up');
+		}
+        for(var i=0; i <= x; i++){
+            if(x[i].checked){
                 console.log("you have selected" + form.extras[i].value);
+				totalprice + (this).data('price');
             }
         }
+	document.getElementById("total").innerHTML = totalprice;
 }
