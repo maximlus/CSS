@@ -1,6 +1,12 @@
+html{
+	width:100%;
+	height:100%;
+}
+
 #wrapper{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+
 }
 #form{
     float: left;
@@ -8,25 +14,41 @@
 
 #leftside{
 	width:30%;
+	
     float: left;
+	background-color: #0380ad;
 }
 #header{
 	margin:auto;
 	text-align: center;
     height: 100px;
+	width:80%;
+	float:left;
+}
+#chef{
+	width: 20%;
+	float: left;
+	height: 100px;
+}
+#chefimg{
+	max-width:60%;
+	max-height:100px;
 }
 #footer{
+	width:;
     height: 20px;
 	float: left;
 }
 #section{
+	padding: 10px;
+	background-color:#d1041f;
     height: 60%;
-	width: 60%;
+	width: 68%;
 	float:left;
 }
 #box{
 	background-color: lightblue;
-	width:30%;
+	width:40%;
 }
 
 #size{
@@ -63,4 +85,35 @@ li a {
 li a:hover {
     background-color: red;
     color: white;
+}
+#pizzaimg{
+	width:580px;
+	height: 340px;
+}
+#address{
+	width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px black;
+    border-style: groove;
+    border-radius: 5px;
+	height: auto;
+}
+label{
+	padding-right:5px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+	width:20%;
+}
+input{
+	
+	display:inline-block;
+}
+#formtitle{
+	width:100%;
+	background-color:grey;
+	color: white;
 }
