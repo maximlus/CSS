@@ -37,9 +37,10 @@ body{
 	width:100%;
     height: 20px;
 	float: left;
+	
 }
 #section{
-	padding: 10px;
+	padding: 0px;
 	background-color:#d1041f;
     height: 100%;
 	width: 68%;
@@ -78,10 +79,9 @@ li a:hover {
 	width:580px;
 	height: 340px;
 }
-}/*until this point */
-#size{/*moved page and now this secion is not working. Great! It's also a copy of a working css. Great!*/
-    width: auto;
-    margin: 8px 0;
+/*until this point */
+#size{/*Found the problem, it was a } just above. whopes*/
+   width: auto;
     box-sizing: border-box;
     border: 1px solid black;
     border-style: groove;
@@ -90,7 +90,6 @@ li a:hover {
 }
 #topping{
     width: auto;
-    margin: 8px 0;
     box-sizing: border-box;
     border: 1px solid black;
     border-style: groove;
@@ -117,6 +116,19 @@ label{
 }
 input{
 	display:inline-block;
+	margin:5px;
+}
+input[type=submit]{
+	font-size: 16px;
+	padding: 10px 24px;
+	border-radius: 2px;
+	background-color: green;
+	color: white;
+	transition-duration: 0.5s;
+}
+input[type=submit]:hover{
+	background-color:red;
+	
 }
 #formtitle{
 	padding:5px;

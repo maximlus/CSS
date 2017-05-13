@@ -41,7 +41,7 @@ function priceAdjust(event){
 		var x = document.getElementById("size").length;
 		if(form == null)
 		{
-			alert('fucked up');
+			alert('something went wrong');
 		}
         for(var i=0; i <= x; i++){
             if(x[i].checked){
