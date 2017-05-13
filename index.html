@@ -10,7 +10,7 @@
     <body onload="main()">
         <div id="wrpapper">
             <div id="header">
-                <h1>Solent pizza's We are so slaty.</h1>
+                <h1>Solent pizza's we are so delicus.</h1> <!-- Placeholder title -->
                 
             </div>
 			<div id="chef">
@@ -18,7 +18,7 @@
 			</div>
             <div id="leftside">
 				<ul>
-					<li><a href="index.html">Home</a></li>
+					<li id="current"><a href="index.html">Home</a></li>
 					<li><a href="contact.html">contact</a></li>
 					<li><a href="order.html">order</a></li>
 				</ul>
@@ -27,68 +27,16 @@
 					<id="total" P> &pound;0.00</p>
                 </div>
             </div>
-            <div id="section">
+			<!--
+            <div id="filler"> <!-- for some reason won't be bellow left side and fill whole gap. 
+			<p>filler</p> <!-- Note this needs to be changed on each page
+			</div>-->
+			<div id="section">
 				</br>
 				<img id="pizzaimg" src="img/pizza1.jpeg" alt="Pizza">
-				<div id="box">
-					<form id="size">
-					<div id="formtitle">
-							Size
-						</div>
-						</br>
-						<input type="radio" name="base" data-price="5" data-human-desc="Small pizza" value="base_small"> Small <span class="price">&pound;5.00</span>
-						</br>
-						<input type="radio" name="base" data-price="7.5" data-human-desc="Medium pizza" value="base_mediam"> Medium <span class="price">&pound;7.50</span>
-						</br>
-						<input type="radio" name="base" data-price="10.0" data-human-desc="Large pizza" value="base_large"> Large <span class="price">&pound;10.00</span>
-						</br>
-						<input type="radio" name="base" data-price="12.5" data-human-desc="X-Large pizza" value="base_xlarge"> X-Large <span class="price">&pound;12.50</span>
-					</form>
-				</div>
-				<div id="box">
-					<form id="topping">
-					<div id="formtitle">
-							Toppings
-						</div>
-						</br>
-						<input type="checkbox" name="topping" data-price="0.4" data-human-desc="Mushroom Toppping" value="topping_mushrooms"> Mushrooms <span class="price">&pound;0.40</span>
-						</br>
-						<input type="checkbox" name="topping" data-price="0.5" data-human-desc="Ham Topping" value="topping_ham"> Ham <span class="price">&pound;0.50</span>
-						</br>
-						<input type="checkbox" name="topping" data-price="0.6" data-human-desc="Anchovies Topping" value="topping_anchovies"> Anchovies <span class="price">&pound;0.60</span>
-					</form>
-				</div>
-				<div id="box">
-					<form id="topping">
-					<div id="formtitle">
-							Extras
-						</div>
-						</br>
-						<input type="checkbox" name="extra" data-price="1.5" data-human-desc="Chips Extra" value="extra_chips"> Chips <span class="price">&pound;1.50</span>
-						</br>
-						<input type="checkbox" name="extra" data-price="2.0" data-human-desc="Garlic Bread Extra" value="extra_garlic_bread"> Garlic Bread <span class="price">&pound;2.00</span>
-					</form>
-				</div>
-				<div id="box">
-					<div id="address">
-						<form id="addressForm">
-						<div id="formtitle">
-							Delivery info
-						</div>
-						</br>
-						<label>Address</label>
-							<input type="text" name="address" placeholder="Please enter your address">
-							</br>
-							<label>postcode</label>
-							<input type="text" name="postcode" placeholder="Please enter your postcode">
-						
-					</div>
-					
-				</div>
-				
-				</div>
+			</div>
             <div id="footer">
-                <p> all rights reservied or some legal crap </p>
+                <p> all rights reservied or some legal stuff </p> <!-- placeholder, this should give date and time, maybe a stock image with rollover, or even a carosell. -->
                 
             </div>
         </div>

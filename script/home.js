@@ -1,12 +1,13 @@
 function main() {
     console.log("in main function");
     var myform = document.getElementById("login");
-    <!--myform.addEventListener("submit",validateForm);-->
+    /*myform.addEventListener("submit",validateForm);*/
     
     var sizeForm = document.getElementById("size");
     sizeForm.addEventListener("change", priceAdjust);
 }
 /*
+This is all order.js stuff
 function validateForm(event) {
     var nameUser = document.getElementById("userName");
     var wordPass = document.getElementById("passWord");
