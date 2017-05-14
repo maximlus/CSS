@@ -14,13 +14,13 @@ body{
 #leftside{
 	width:30%;
 	height: 100%;
-    float: left;
-	background-color: #0380ad;
+  float: left;
+	background-color: #72e56e;
 }
 #header{
 	margin:auto;
 	text-align: center;
-    height: 100px;
+  height: 100px;
 	width:80%;
 	float:left;
 }
@@ -39,15 +39,15 @@ body{
 	float: left;
 }
 #section{
-	background-color:#d1041f;
-    height: 100%;
+	background-color:#ef0920;
+  height: 100%;
 	width: 68%;
 	float:left;
 }
 #box{
 	margin: 10px;
 	padding: 2px;
-	background-color: lightblue;
+	background-color: #2b79ef;
 	width:40%;
 }
 #form{
@@ -58,20 +58,21 @@ ul {
     margin: 10px;
     padding: 10px;
     width: 200px;
-    background-color: green;
+    background-color: #f2bf32;
 }
 li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+		transition-duration: 0.3s;
 }
 li a:hover {
     background-color: red;
     color: white;
 }
 #current{
-	background-color: yellow;
+	background-color: #f9ff4f;
 }
 #pizzaimg{
 	width:580px;

@@ -4,14 +4,14 @@
         <title> homepage</title>
         <script type="text/javascript" src="script/order.js"></script>
         <link rel="stylesheet" type="text/css" href="order.css">
-        
+
     </head>
-    
+
     <body onload="main()">
         <div id="wrpapper">
             <div id="header">
                 <h1>Solent pizza's we are so delicus.</h1> <!-- Placeholder title -->
-                
+
             </div>
 			<div id="chef">
 				<img id="chefimg" src="img/chef.jpeg" alt="Our cook">
@@ -25,10 +25,10 @@
 				</ul>
 				<div id="box">
 					<p>shopping cart</P>
-					<id="total" P> &pound;0.00</p>
+					<p id="total" > &pound;0.00</p>
                 </div>
             </div>
-			
+
 			<div id="section">
 				</br>
 				<div id="box"> <!-- everything bellow this point untill said so needs to go into order.html -->
@@ -47,7 +47,7 @@
 					</form>
 				</div>
 				<div id="box">
-					<form id="topping">
+					<form class="checkbox" id="topping">
 						<div id="formtitle">
 							Toppings
 						</div>
@@ -60,7 +60,7 @@
 					</form>
 				</div>
 				<div id="box">
-					<form id="topping">
+					<form class="checkbox" id="extras">
 					<div id="formtitle">
 							Extras
 						</div>
@@ -78,13 +78,13 @@
 						</div>
 						</br>
 						<label>Address</label>
-							<input type="text" name="address" placeholder="Please enter your address">
+							<input id="address" type="text" name="address" placeholder="Please enter your address">
 							</br>
 							<label>postcode</label>
-							<input type="text" name="postcode" placeholder="Please enter your postcode">
+							<input id="postcode" type="text" name="postcode" placeholder="Please enter your postcode">
 						</form>
 					</div>
-					
+
 				</div>
 				</br>
 				<input type="submit" id="order" name="order" value="place order">
@@ -92,7 +92,7 @@
 			</div> <!-- order.html untill this point -->
             <div id="footer">
                  all rights reservied or some legal stuff  <!-- placeholder, this should give date and time, maybe a stock image with rollover, or even a carosell. -->
-                
+
             </div>
         </div>
     </body>
