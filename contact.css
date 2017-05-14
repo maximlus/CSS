@@ -76,8 +76,49 @@ li a:hover {
 	width:580px;
 	height: 340px;
 }
-#map {
-        height: 400px;
-        width: 100%;
-		background-color: grey;
-       }
+#map{
+	margin:10px;
+	height: 400px;
+	width: 550px;
+	background-color: grey;
+}
+h3{
+	margin:10px;
+}
+label{
+	padding-right:5px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+	width:20%;
+}
+input{
+	display:inline-block;
+}
+#contactInfo{
+    width: auto;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-style: groove;
+    border-radius: 5px;
+	border-width: 2px;
+}
+input[type=submit]{
+	font-size: 16px;
+	padding: 10px 24px;
+	border-radius: 2px;
+	background-color: green;
+	color: white;
+	transition-duration: 0.5s;
+}
+input[type=submit]:hover{
+	background-color:red;
+}
+#message{
+	height:100px;
+}
+.error{
+	display:none;
+	color:red;
+}

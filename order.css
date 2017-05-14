@@ -116,7 +116,6 @@ label{
 }
 input{
 	display:inline-block;
-	margin:5px;
 }
 input[type=submit]{
 	font-size: 16px;
@@ -128,7 +127,6 @@ input[type=submit]{
 }
 input[type=submit]:hover{
 	background-color:red;
-	
 }
 #formtitle{
 	padding:5px;
