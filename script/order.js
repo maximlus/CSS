@@ -2,10 +2,28 @@ function main() {
     console.log("in main function");
 	var temp = document.getElementById("order")
 	temp.addEventListener("click",validateForm);
-    console.log("If you're looking at this, it means something has gone wrong. sad times.")
+    console.log("If you're looking at this, it means something has gone wrong. sad times.");
     /*var sizeForm = document.getElementById("size");
     sizeForm.addEventListener("change", priceAdjust);*/
 }
+/*
+function priceAdjust(event){
+    
+    console.log("the form has changed");
+        var form = document.getElementById("size");
+		var x = document.getElementById("size").length;
+		if(form == null)
+		{
+			alert('something went wrong');
+		}
+        for(var i=0; i <= x; i++){
+            if(x[i].checked){
+                console.log("you have selected" + form.extras[i].value);
+				totalprice + (this).data('price');
+            }
+        }
+	document.getElementById("total").innerHTML = totalprice;
+}*/
 function validateForm(event) {
 	var i;
 	var sizeValid = false
