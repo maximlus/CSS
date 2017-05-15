@@ -39,21 +39,28 @@
 				<div id="box">
 					<form id="contactInfo" onsubmit="return formvalid();">
 					<p>Please enter your contact information bellow</p>
-
-					<label>first name</label><input type="text" name="firstName" placeholder="First Name" id="firstName">
-          <div class="error" id="fError">&#10004;</div>
-					<label>Last name</label><input type="text" name="lastName" placeholder="Last Name" id="lastName">
-          <div class="error" id="lError">&#10004;</div>
-					<label>e-mail</label><input type="text" name="e-mail" placeholder="solent@pizza.com" id="e-mail"><text class="error" id="eError">&#10004;</text>
-					<label>phone number</label><input type="text" name="phoneNumber" placeholder="071234567890" id="phoneNumber">
-					<label>message</label><input type="text" name="message" placeholder="message" id="message"><text class="error" id="mError">&#10004;</text>
-					</br>
+          <div id="line">
+					<label>First Name</label><input type="text" name="firstName" placeholder="First Name" id="firstName"><text class="error" id="fError">X</text><text class="correct" id="fCorrect">&#10004;</text>
+        </div>
+        <div id="line">
+					<label>Last Name</label><input type="text" name="lastName" placeholder="Last Name" id="lastName"><text class="error" id="lError">X</text><text class="correct" id="lCorrect">&#10004;</text>
+        </div>
+        <div id="line">
+          <label>E-mail</label><input type="text" name="e-mail" placeholder="solent@pizza.com" id="e-mail"><text class="error" id="eError">X</text><text class="correct" id="eCorrect">&#10004;</text>
+        </div>
+        <div id="line">
+          <label>Phone Number</label><input type="text" name="phoneNumber" placeholder="071234567890" id="phoneNumber">
+        </div>
+        <div id="extendedLine">
+          <label>Message</label><input type="text" name="message" placeholder="message" id="message"><text class="error" id="mError">X</text><text class="correct" id="mCorrect">&#10004;</text>
+        </div>
+          </br>
 					<input type="submit" id="submit" name="submit" value="submit">
 					</form>
 				</div>
 			</div>
             <div id="footer">
-                <p> all rights reservied or some legal stuff </p> <!-- placeholder, this should give date and time, maybe a stock image with rollover, or even a carosell. -->
+                <p> all rights reservied</p> <!-- placeholder, this should give date and time, maybe a stock image with rollover, or even a carosell. -->
 
             </div>
         </div>

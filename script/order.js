@@ -1,8 +1,10 @@
 var totalprice = 0.00;//This should be a global variable, better idea, it should be passed between functions.
 function main() {
     console.log("in main function");
-	var temp = document.getElementById("order")
+	var temp = document.getElementById("order");
+  var x = document.getElementById("reset");
 	temp.addEventListener("click",validateForm);
+  x.addEventListener("click",resetOrder);
     console.log("If you're looking at this, it means something has gone wrong. sad times.");
     var sizeForm = document.getElementById("section");
     sizeForm.addEventListener("change", priceAdjust);
@@ -141,5 +143,17 @@ function validateForm(event) {
     }
 
 	}
+
+}
+function resetOrder(){
+  console.log("we are in reset ORder");
+  var temp = document.getElementsByTagName("input")
+  console.log(temp);
+  for(var i=0;i<temp.length;i++){
+    console.log("We are in the loop pass " + i);
+    temp[i].checked=false;
+  }
+  document.getElementById("addressInput").value="";
+  document.getElementById("postcodeInput").value="";
 
 }
