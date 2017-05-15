@@ -88,21 +88,22 @@ h3{
 }
 label{
 	padding-right:5px;
-    display: inline-block;
-    float: left;
-    clear: left;
-    text-align: right;
+  display: inline-block;
+  float: left;
+  clear: left;
+  text-align: right;
 	width:20%;
 }
 input{
 	display:inline-block;
+
 }
 #contactInfo{
-    width: auto;
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-style: groove;
-    border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-style: groove;
+  border-radius: 5px;
 	border-width: 2px;
 }
 input[type=submit]{
@@ -122,4 +123,9 @@ input[type=submit]:hover{
 .error{
 	display:none;
 	color:red;
+	width: 30px;
+}
+text{
+	float:left;
+	text-align: right;
 }

@@ -1,7 +1,8 @@
 function main() {
-    console.log("in main function");
+  console.log("in main function");
 	console.log("If you're looking at this, it means something has gone wrong. sad times.");
 	clock();
+
 }
 
 function clock(){
@@ -24,4 +25,10 @@ function clock(){
 function checkTime(i){
 	if(i<10) {i="0" + i};
 	return i;
+}
+function rollover(MyImage){
+  MyImage.src = "img/pizza2.jpg";
+}
+function rollback(MyImage){
+  MyImage.src = "img/pizza1.jpeg";
 }

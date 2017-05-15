@@ -105,17 +105,21 @@ function validateForm(event) {
 			console.log("toppingValid is " + sizeValid);//used for debugging
 		}
 	}
-  if(document.getElementById("address")==''){
+  if(document.getElementById("addressInput").value==""){
     addValid = false;
   }else{
     addValid = true;
   }
-  if(document.getElementById("postcode")==''){
+  //console.log(document.getElementById("postcodeInput").value);
+  if(document.getElementById("postcodeInput").value ==""){
     postValid = false;
+  //console.log("postcode set to true");
   }else{
     postValid = true;
+    //console.log("postcode is false")
   }
 	console.log("loop over")//used for debugging
+  console.log("size is " + sizeValid + " top is " + topValid + " addres is " + addValid + " post is " + postValid);
 	if(sizeValid == true && topValid == true && addValid == true && postValid == true){
 		alert("Order placed")
 	}else{
@@ -127,13 +131,13 @@ function validateForm(event) {
 		}else{
       if(addValid == false){
         alert("You have not entered your address.");
-      }else(
-        if (postValid == false){
+      }else{
+        if (postValid == false){//shits broken
           alert("You have not enetered your postcode.");
         }else{
           alert("You have created an unknown error, make a wish.");
         }
-      )
+      }
     }
 
 	}
