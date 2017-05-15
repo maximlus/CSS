@@ -12,7 +12,7 @@ body{
     height: 100%;
 }
 #leftside{
-	width:30%;
+	width:20%;
 	height: 100%;
   float: left;
 	background-color: #72e56e;
@@ -21,8 +21,9 @@ body{
 	margin:auto;
 	text-align: center;
   height: 100px;
-	width:80%;
+	width:50%;
 	float:left;
+	background-color: #f2bf32;
 }
 #chef{
 	width: 20%;
@@ -41,14 +42,15 @@ body{
 #section{
 	background-color:#ef0920;
   height: 100%;
-	width: 68%;
+	width: 78%;
 	float:left;
 }
 #box{
-	margin: 10px;
-	padding: 2px;
-	background-color: #2b79ef;
-	width:40%;
+margin: 10px;
+padding: 2px;
+background-color: #72e56e;
+width:38%;
+float:left;
 }
 #form{
     float: left;
@@ -82,10 +84,25 @@ li a:hover {
 #frame{
 	margin:10px;
 	padding:10px;
+	float:left;
 }
 #clock{
 	width:30%;
 	height:20px;
 	float:left;
 	text-align:right;
+}
+p{
+	font-size: 18px;
+}
+h1{
+	font-size: 50px;
+}
+#filler{
+	margin:auto;
+	text-align: center;
+  height: 100px;
+	width:30%;
+	float:left;
+	background-color: #f2bf32;
 }

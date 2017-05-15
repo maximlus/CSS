@@ -11,7 +11,7 @@ body{
     height: 100%;
 }
 #leftside{
-	width:30%;
+	width:20%;
 	height: 100%;
   float: left;
 	background-color: #72e56e;
@@ -20,8 +20,9 @@ body{
 	margin:auto;
 	text-align: center;
   height: 100px;
-	width:80%;
+	width:50%;
 	float:left;
+	background-color: #f2bf32;
 }
 #chef{
 	width: 20%;
@@ -40,7 +41,7 @@ body{
 #section{
 	background-color:#ef0920;
   height: 100%;
-	width: 68%;
+	width: 78%;
 	float:left;
 }
 #box{
@@ -128,4 +129,15 @@ input[type=submit]:hover{
 text{
 	float:left;
 	text-align: right;
+}
+#filler{
+	margin:auto;
+	text-align: center;
+  height: 100px;
+	width:30%;
+	float:left;
+	background-color: #f2bf32;
+}
+h1{
+	font-size: 50px;
 }

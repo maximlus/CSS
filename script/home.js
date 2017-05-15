@@ -7,6 +7,9 @@ function main() {
 
 function clock(){
 	var today = new Date();
+  var day = today.getDate();
+  var month = today.getMonth() + 1;
+  var year = today.getFullYear();
 	var hour = today.getHours();
 	var minuite = today.getMinutes();
 	var amPm = "AM";
@@ -19,7 +22,7 @@ function clock(){
 	else{
 		amPm = "AM";
 	}
-	document.getElementById("clock").innerHTML = "the current time is " + hour + ":" + minuite + amPm;
+	document.getElementById("clock").innerHTML = "Current time: " + hour + ":" + minuite + amPm + " Date: " + day + "/" + month + "/" + year;
 	var temp = setTimeout(clock, 600)
 }
 function checkTime(i){

@@ -12,7 +12,7 @@ body{
     height: 100%;
 }
 #leftside{
-	width:30%;
+	width:20%;
 	height: 100%;
   float: left;
 	background-color: #72e56e;
@@ -21,8 +21,9 @@ body{
 	margin:auto;
 	text-align: center;
   height: 100px;
-	width:80%;
+	width:50%;
 	float:left;
+	background-color: #f2bf32;
 }
 #chef{
 	width: 20%;
@@ -43,7 +44,7 @@ body{
 	padding: 0px;
 	background-color:#ef0920;
   height: 100%;
-	width: 68%;
+	width: 78%;
 	float:left;
 }
 #box{
@@ -84,11 +85,11 @@ li a:hover {
 }
 /*until this point */
 #size{/*Found the problem, it was a } just above. whopes*/
-   width: auto;
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-style: groove;
-    border-radius: 5px;
+  width: auto;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-style: groove;
+  border-radius: 5px;
 	border-width: 2px;
 }
 .checkbox{
@@ -144,4 +145,15 @@ input[type=submit]:hover{
 	width:97%;
 	background-color:grey;
 	color: white;
+}
+#filler{
+	margin:auto;
+	text-align: center;
+  height: 100px;
+	width:30%;
+	float:left;
+	background-color: #f2bf32;
+}
+h1{
+	font-size: 50px;
 }
